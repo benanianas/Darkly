@@ -1,0 +1,3 @@
+# URl redirection
+
+location: footer
