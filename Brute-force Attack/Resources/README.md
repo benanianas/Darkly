@@ -1,5 +1,16 @@
 # Brute-force Attack
 
-location: http://10.13.100.182/?page=signin
+## Location
 
-After Running the brute-force script we got the password: shadow
+```
+http://ip/?page=signin
+```
+## Breach
+
+in the sign in page we used a simple python script that try a list of most common password
+and it didn't take a lot of time to get our hands on the sign in credentials with the first username we think of "admin"
+and the password "shadow"
+
+## Solution
+- use more complicated password and unpredictable usernames lika admin, administrator, administrateur ...
+- limit server requests for the same ip.
