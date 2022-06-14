@@ -3,10 +3,10 @@
 ## Location
 
 ```
-http://ip/?page=images
+http://ip/?page=searchimg
 ```
 ## Breach
-in the input we tried the value 1 or 1=1  to check if there is an sql injection possibiltie and we got the table dumped,
+in the input we tried the value 1 or 1=1  to check if there is an sql injection possibiltie and we got a response,
 so we tried to look more into it by getting some database information using the next query
 ```
 1337 or 1=1 UNION select table_name, column_name FROM information_schema.columns
