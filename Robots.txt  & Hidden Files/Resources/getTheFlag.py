@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import re
 import sys
@@ -20,4 +22,5 @@ if len(sys.argv) == 2 and sys.argv[1]:
     url = "http://"+sys.argv[1]+"/.hidden/"
     find_flag(url)
 else:
+    print("Usage: ./getTheFlag.py <ip>")
     exit()
