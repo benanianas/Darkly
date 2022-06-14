@@ -11,7 +11,7 @@ http://ip/index.php?page=media&src=nsa
 In this page we noticed that the website is using the query src to show the image, so we tried exploit it by passing a HTML code in base64 format that contains an HTML script Tag.
 
 ```
-/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnSGVsbG8nKTwvc2NyaXB0Pg==
 ```
 
 it's an XSS breach, an attacker could use it to run malicious script when the user use's a link that contains the script and benifit from it by stealing his data (cookies, localStoreg) or even redirecting the user to a similar fake page (Phishing attack)

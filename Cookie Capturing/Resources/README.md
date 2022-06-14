@@ -7,7 +7,7 @@ Cookies
 ```
 ## Breach
 
-After checking the Cookies we found an interesting one I_am_admin with what i looks like a md5 hash as a value
+After checking the Cookies we found an interesting one I_am_admin with what it looks like a md5 hash as a value
 after looking for a decryption for it's value => "false"
 we changed with and md5 "true" value, and we got the flag.
 

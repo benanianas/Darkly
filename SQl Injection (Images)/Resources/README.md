@@ -13,7 +13,7 @@ so we tried to look more into it by getting some database information using the 
 ```
 after multiple queries combinations with the next query we succeeded to get some useful dinstructions to get our flag
 ```
-1337 or 1=1 union select comment, title FROM list_images
+1337 or 1=1 union select comment, id FROM list_images
 ```
 If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
 
